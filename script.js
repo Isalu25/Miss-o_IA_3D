@@ -6,55 +6,53 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Assim que eu sair da escola, vou fazer alguma faculdade. Você acha que eu curso em qual faculdade?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Faculdade pública, como a Unioeste.",
                 afirmacao: "afirmacao"
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Faculdade privada, como a FAG.",
                 afirmacao: "afirmacao"
             }           
             
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
+        enunciado: "E qual curso você acha que eu devo escolher, levando em consideração que eu gosto de biologia e gosto de ajudar as pessoas?",
         alternativas: [
             {
-                texto:"Utilizar uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento",
-                afirmacao:"afirmacao"
+                texto:"Cursos da área da saúde, como Medicina"
             },
             {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao:"afirmacao"
+                texto: "Cursos da área de exatas, como as Engenharias, ou humanas, como Jornalismo."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "E qual especialização ou pós-graduação eu devo fazer?",
         alternativas: [
             {
-                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto:"Ginecologia  obstetrícia caso o curso for Medicina.",
                 afirmacao:"afirmacao"
             },
             {
-                texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto:"Engenharia civil ou Repórter da RPC.",
                 afirmacao:"afirmacao"
             }
             
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Quando eu terminar meus estudos:",
         alternativas: [
             {
-                texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto:"Ficar no Brasil, no Paraná ou em São Paulo.",
                 afirmacao:"afirmacao"
             },
             {
-                texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto:"Ir para fora do Brasil, nos Estados Unidos ou na Itália.",
                 afirmacao:"afirmacao"
             }
             
@@ -109,7 +107,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Em 2027";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = ""; 
 }
