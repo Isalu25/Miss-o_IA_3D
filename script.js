@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Faculdade pública, como a Unioeste.",
-                afirmacao: "afirmacao"
+                afirmacao: "Acha mais interessante faculdades públicas."
             },
             {
                 texto: "Faculdade privada, como a FAG.",
-                afirmacao: "afirmacao"
+                afirmacao: "Acha mais interessante faculdades privadas."
             }           
             
         ]
@@ -23,10 +23,12 @@ const perguntas = [
         enunciado: "E qual curso você acha que eu devo escolher, levando em consideração que eu gosto de biologia e gosto de ajudar as pessoas?",
         alternativas: [
             {
-                texto:"Cursos da área da saúde, como Medicina"
+                texto:"Cursos da área da saúde, como Medicina.",
+                afirmacao: "Gosta mais da área da saúde."
             },
             {
-                texto: "Cursos da área de exatas, como as Engenharias, ou humanas, como Jornalismo."
+                texto: "Cursos da área de exatas, como as Engenharias, ou humanas, como Jornalismo.",
+                afirmacao: "Gosta mais da área de exatas."
             }
         ]
     },
@@ -35,11 +37,11 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Ginecologia  obstetrícia caso o curso for Medicina.",
-                afirmacao:"afirmacao"
+                afirmacao:"Interesse na saúde da mulher e bebês."
             },
             {
                 texto:"Engenharia civil ou Repórter da RPC.",
-                afirmacao:"afirmacao"
+                afirmacao:"Interesse em outras áreas."
             }
             
         ]
@@ -49,11 +51,11 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Ficar no Brasil, no Paraná ou em São Paulo.",
-                afirmacao:"afirmacao"
+                afirmacao:"Preefere território nacional."
             },
             {
                 texto:"Ir para fora do Brasil, nos Estados Unidos ou na Itália.",
-                afirmacao:"afirmacao"
+                afirmacao:"Prefere território internacional."
             }
             
         ]
@@ -62,12 +64,12 @@ const perguntas = [
         enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
         alternativas: [
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao:"afirmacao"
+                texto: "Fazer cursos de especialização.",
+                afirmacao:"Acha importante estudar."
             },
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
+                texto: "Não se especializar em nenhuma área.",
+                afirmacao:"Não vê necessidade no estudo."
             }
             
             
