@@ -10,70 +10,101 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Faculdade pública, como a Unioeste.",
-                afirmacao: "Acha mais interessante faculdades públicas."
+                afirmacao: [
+                    "Acha mais interessante faculdades públicas",
+                    " não tem dinheiro para pagar faculdade particular.",
+                ],
             },
             {
                 texto: "Faculdade privada, como a FAG.",
-                afirmacao: "Acha mais interessante faculdades privadas."
-            }           
+                afirmacao: [
+                   "Acha mais interessante faculdades privadas",
+                   " tem dinheiro para pagar mensalidade.",
+                ],
+            },           
             
-        ]
+        ],
+
     },
     {
         enunciado: "E qual curso você acha que eu devo escolher, levando em consideração que eu gosto de biologia e gosto de ajudar as pessoas?",
         alternativas: [
             {
                 texto:"Cursos da área da saúde, como Medicina.",
-                afirmacao: "Gosta mais da área da saúde."
+                afirmacao: [
+                  "Gosta mais da área da saúde",
+                  " quer ajudar as pessoas.",
+                ],
             },
             {
                 texto: "Cursos da área de exatas, como as Engenharias, ou humanas, como Jornalismo.",
-                afirmacao: "Gosta mais da área de exatas."
-            }
-        ]
+                afirmacao: [
+                "Gosta mais da área de exatas",
+                " faciliade com cálculos.",
+                ],
+            },
+        ],
     },
     {
         enunciado: "E qual especialização ou pós-graduação eu devo fazer?",
         alternativas: [
             {
                 texto:"Ginecologia  obstetrícia caso o curso for Medicina.",
-                afirmacao:"Interesse na saúde da mulher e bebês."
+                afirmacao:[
+                    "Interesse na saúde da mulher e bebês",
+                    " quer ajudar as mulheres no pós-parto.",
+                   ],
             },
             {
                 texto:"Engenharia civil ou Repórter da RPC.",
-                afirmacao:"Interesse em outras áreas."
-            }
+                afirmacao:[
+                "Interesse em outras áreas",
+                " prefere cálculos ou oratória.",
+                ],
+            },
             
-        ]
+        ],
     },
     {
         enunciado: "Quando eu terminar meus estudos:",
         alternativas: [
             {
                 texto:"Ficar no Brasil, no Paraná ou em São Paulo.",
-                afirmacao:"Preefere território nacional."
+                afirmacao: [
+                "Preefere território nacional",
+                "  não quer enfrentar burocracias para sair do país.",
+                ],
             },
             {
                 texto:"Ir para fora do Brasil, nos Estados Unidos ou na Itália.",
-                afirmacao:"Prefere território internacional."
-            }
+                afirmacao:[
+                "Prefere território internacional",
+                "  quer conhecer novos lugares.",
+               ],
+            },
             
-        ]
+        ],
     },
     {
         enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
         alternativas: [
             {
                 texto: "Fazer cursos de especialização.",
-                afirmacao:"Acha importante estudar."
+                afirmacao: [
+                "Acha importante estudar",
+                " quer crescer profissionalmente.",
+                ],
             },
             {
                 texto: "Não se especializar em nenhuma área.",
-                afirmacao:"Não vê necessidade no estudo."
+                afirmacao:[
+                "Não vê necessidade no estudo",
+                " quer manter a vida profissional da maneira que está.",
+                ],
             }
             
             
-        ]
+        ],
     },
 ];
 
