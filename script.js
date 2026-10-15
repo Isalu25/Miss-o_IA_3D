@@ -86,17 +86,17 @@ const perguntas = [
         ],
     },
     {
-        enunciado: " Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: " Deseja continuar estudando?",
         alternativas: [
             {
-                texto: "Fazer cursos de especialização.",
+                texto: "Sim, quero fazer cursos de especialização.",
                 afirmacao: [
                 "Acha importante estudar",
                 " quer crescer profissionalmente.",
                 ],
             },
             {
-                texto: "Não se especializar em nenhuma área.",
+                texto: "Não quero me especializar em nenhuma área.",
                 afirmacao:[
                 "Não vê necessidade no estudo",
                 " quer manter a vida profissional da maneira que está.",
